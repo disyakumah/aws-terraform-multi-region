@@ -1,0 +1,14 @@
+# Example Terraform Variables
+# Copy this file to terraform.tfvars and customize the values
+
+# Environment name (dev, staging, prod)
+environment = "dev"
+
+# Multi-Region Configuration
+# The regions are defined in locals.tf
+# By default, infrastructure will be deployed to:
+# - us-west-2 (10.0.0.0/16)
+# - us-east-1 (10.1.0.0/16)
+# - eu-west-1 (10.2.0.0/16)
+
+# To customize regions, edit the locals.tf file

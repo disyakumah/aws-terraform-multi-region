@@ -1,0 +1,15 @@
+# EC2 Module - Main Configuration
+
+resource "aws_instance" "this" {
+  ami                    = data.aws_ami.amazon_linux_2.id
+  instance_type          = var.instance_type
+  subnet_id              = var.subnet_id
+  vpc_security_group_ids = var.security_group_ids
+
+  tags = merge(
+    {
+      Name = var.instance_name
+    },
+    var.additional_tags
+  )
+}
