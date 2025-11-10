@@ -134,6 +134,17 @@ Configurable security groups with dynamic ingress/egress rules.
 ### EC2 Module
 Region-agnostic EC2 instances with automatic AMI selection.
 
+## 📚 Documentation for Team Members
+
+- **[USAGE_GUIDE.md](USAGE_GUIDE.md)** - Detailed guide for junior employees
+- **[FILE_GUIDE.md](FILE_GUIDE.md)** - Quick reference: which files to edit
+
+### For Junior Employees
+👉 **Start here:** [FILE_GUIDE.md](FILE_GUIDE.md) - Simple visual guide showing which files are safe to edit
+
+### For All Team Members
+👉 **Read this:** [USAGE_GUIDE.md](USAGE_GUIDE.md) - Complete usage instructions and best practices
+
 ## 🤝 Contributing
 
 Feel free to submit issues and enhancement requests!
