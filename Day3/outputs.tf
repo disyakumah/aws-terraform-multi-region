@@ -1,4 +1,4 @@
-﻿# Root Module - Outputs
+# Root Module - Outputs
 # Outputs from all regions
 
 # US-West-2 Outputs
@@ -63,3 +63,18 @@ output "eu_west_private_instance_id" {
   description = "Private EC2 instance ID in eu-west-1"
   value       = module.ec2_private_eu_west.instance_id
 }
+# S3 Bucket Outputs
+# output "s3_bucket_essame_id" {
+#   description = "The name of the Essame S3 bucket"
+#   value       = module.s3_bucket_essame.bucket_id
+# }
+
+# output "s3_bucket_essame_arn" {
+#   description = "The ARN of the Essame S3 bucket"
+#   value       = module.s3_bucket_essame.bucket_arn
+# }
+
+# output "s3_bucket_essame_domain_name" {
+#   description = "The domain name of the Essame S3 bucket"
+#   value       = module.s3_bucket_essame.bucket_domain_name
+# }

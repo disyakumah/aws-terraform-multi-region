@@ -1,4 +1,4 @@
-﻿# Root Module - Multi-Region AWS Infrastructure
+# Root Module - Multi-Region AWS Infrastructure
 # This configuration deploys VPC, Security Groups, and EC2 instances across multiple regions
 
 terraform {
