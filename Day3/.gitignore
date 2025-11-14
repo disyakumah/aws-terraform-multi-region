@@ -13,6 +13,10 @@
 terraform.tfvars
 *.auto.tfvars
 
+# Plan files
+*.tfplan
+tfplan
+
 # Crash log files
 crash.log
 crash.*.log
